@@ -1396,7 +1396,7 @@ body {
   position: relative;
   min-height: 100%;
   background: var(--global-bg);
-  color: #f6fcff;
+  color: var(--font-color);
   font-size: var(--global-font-size);
   font-family: var(--global-font), Consolas_1, -apple-system, 'Quicksand', 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;;
   line-height: 2;
@@ -1424,7 +1424,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://kumikumikoo.github.io/img/001.png);
+  background: url(https://kumikumikoo.github.io/img/233.png);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -2358,7 +2358,7 @@ figure.highlight pre .javascript .function {
   }
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-title {
-  color: #f2f1f1;
+  color: var(--text-highlight-color);
   font-size: 1.55em;
   line-height: 1.4;
   -webkit-transition: all 0.2s ease-in-out;
@@ -2378,7 +2378,7 @@ figure.highlight pre .javascript .function {
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
   margin: 6px 0;
-  color: #eae8e8;
+  color: #858585;
   font-size: 0.9em;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .post-meta-date {
@@ -2403,7 +2403,7 @@ figure.highlight pre .javascript .function {
   margin: 0 4px;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a {
-  color: #eae8e8;
+  color: #858585;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a:hover {
   color: #49b1f5;
@@ -2595,12 +2595,12 @@ h1.page-title + .tag-cloud-list {
 #aside-content .aside-list > .aside-list-item .content > time,
 #aside-content .aside-list > .aside-list-item .content > .name {
   display: block;
-  color: #ebf8ff;
+  color: #858585;
   font-size: 85%;
 }
 #aside-content .aside-list > .aside-list-item .content > .title,
 #aside-content .aside-list > .aside-list-item .content > .comment {
-  color: #f6fcff;
+  color: var(--font-color);
   font-size: 95%;
   line-height: 1.5;
   -webkit-line-clamp: 2;
